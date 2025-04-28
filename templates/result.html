@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Prediction Result</title>
+  <style>
+    body { font-family: Arial, sans-serif; display: flex; flex-direction: column; align-items: center; margin-top: 50px; }
+    img { max-width: 80%; height: auto; margin-top: 20px; }
+    a { margin-top: 20px; text-decoration: none; color: blue; }
+  </style>
+</head>
+<body>
+  <h2>Predicted Image</h2>
+  <img src="{{ url_for('send_pred', filename=pred_image) }}" alt="Prediction">
+  <a href="/">Upload Another Image</a>
+</body>
+</html>

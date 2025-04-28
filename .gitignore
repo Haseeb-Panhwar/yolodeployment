@@ -1,0 +1,5 @@
+*.pt
+uploads/
+predictions/
+__pycache__/
+*.pyc
